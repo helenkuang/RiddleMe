@@ -3,6 +3,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
+
+
 <!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_riddle_me"
@@ -20,4 +22,12 @@
         android:text="What is something you own that other people use more than you?"
         android:layout_alignParentTop="true"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2" /> -->
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="99dp"
+        android:id="@+id/textView3" />
 </RelativeLayout>

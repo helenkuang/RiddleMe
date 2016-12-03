@@ -11,5 +11,4 @@ public class RiddleMe extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_riddle_me);
     }
-    
 }
