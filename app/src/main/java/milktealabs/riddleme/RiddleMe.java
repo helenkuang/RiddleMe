@@ -2,6 +2,7 @@ package milktealabs.riddleme;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 
 public class RiddleMe extends AppCompatActivity {
 
@@ -9,6 +10,12 @@ public class RiddleMe extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_riddle_me);
+        //TODO: move this to the RiddleList afterwards
+        setContentView(R.layout.riddlelist);
+    }
+
+    public void openRiddle(View view) {
+        
+        setContentView(R.layout.riddle1);
     }
 }
